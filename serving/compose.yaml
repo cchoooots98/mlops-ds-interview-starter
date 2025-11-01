@@ -1,0 +1,9 @@
+services:
+  api:
+    build: ./serving
+    environment:
+      - MODEL_PATH=/app/app/model.pkl
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./serving/app:/app/app

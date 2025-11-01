@@ -1,0 +1,2 @@
+-- Compare keyset vs offset pagination (commentary only)
+-- Use EXPLAIN ANALYZE in your DB to compare plans.

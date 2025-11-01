@@ -1,0 +1,27 @@
+
+# env & secrets
+.env
+*.pem
+*.key
+*.secret
+*.secrets
+
+# python
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+
+# data
+data/*.csv
+data/samples/*.parquet
+outputs/
+mlruns/
+
+# notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

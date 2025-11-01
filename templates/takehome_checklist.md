@@ -1,0 +1,7 @@
+- Clarify problem
+- Data dictionary
+- EDA (≤5 charts)
+- Modeling & validation
+- Recommendations
+- Risks & next steps
+- README + one-click run
